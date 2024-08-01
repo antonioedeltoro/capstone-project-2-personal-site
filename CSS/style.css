@@ -32,12 +32,17 @@ ul {
   -webkit-columns: 2; /* For Safari and older versions of Chrome */
 }
 
-.link {
-  color: #f9c2c1;
+.link,
+.email-link {
+  color: #d14d8c; /* Darker pink for the hyperlinks */
+  text-decoration: none; /* Ensure links don't have underlines */
 }
 
-.link:hover {
-  color: #f8e4e3;
+.link:hover,
+.email-link:hover {
+  color: #f8e4e3; /* Light pink for hover effect */
+  background-color: #d14d8c; /* Darker pink background for contrast */
+  text-decoration: underline; /* Optional: underline links on hover */
 }
 
 .filler {
